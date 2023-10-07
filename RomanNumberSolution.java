@@ -29,7 +29,8 @@ public class RomanNumberSolution{
         System.out.println(ans);
     }
     public static void main(String[] args){
-        String s = "IX";
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
         RomanNumberSolution result = new RomanNumberSolution();
         result.romanToInt(s); 
     }
